@@ -1,6 +1,6 @@
 # Codewars Algorithm Solutions
 
-A code base for codewars.com algorithms.
+A code base for `codewars.com` algorithms.
 
 ## Info
 
