@@ -1,17 +1,10 @@
-const duplicateEncoder = (str) => {
-const strArr = str.split('');
+const duplicateEncoder = (word) =>
+  word
+    .toLowerCase()
+    .split('')
+    .map((letter, i, a) =>
+      a.indexOf(letter) === a.lastIndexOf(letter) ? '(' : ')'
+    )
+    .join('');
 
-strArr.forEach((el,i) => {
-	for (let l = 0; l < strArr.length; l++) {
-		
-	}
-	
-})
-};
-console.log(duplicateEncoder('recede'));
-
-regex 
-char at
-
-let t = 'test';
-console.log(charcode);
+duplicateEncoder('wwwwddthw');
