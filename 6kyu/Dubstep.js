@@ -8,4 +8,4 @@ const decoder = (song) => {
   return decoded.join(' ');
 };
 
-decoder('WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB');
+console.log(decoder('WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB'));
